@@ -106,7 +106,7 @@ def get_median(number_list):
     temp_list = sorted(number_list[:])
     
     if len(temp_list) % 2 == 1:
-        index_a = len(temp_list) - 1 // 2
+        index_a = (len(temp_list) - 1) // 2
         median = temp_list[index_a]
     else:
         index_a = len(temp_list) // 2 - 1
