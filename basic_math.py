@@ -50,7 +50,7 @@ def get_smallest(number_list):
             11
     """
     smallest_number = number_list[0]
-    for i in smallest_number[1:]:
+    for i in number_list[1:]:
         if i < smallest_number:
             smallest_number = i
 
